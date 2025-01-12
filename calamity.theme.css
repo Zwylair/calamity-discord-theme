@@ -8,11 +8,12 @@
 */
 
 @import url('https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=nunito@400&display=swap');
 
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font */
-	--font: 'Chillax', sans-serif;
+	--font: 'Chillax', 'Nunito', sans-serif;
 
 	/* top left corner text */
 	--corner-text: 'Calamity';
